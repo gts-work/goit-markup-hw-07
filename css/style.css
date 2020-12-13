@@ -8,14 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-/* ROOT Variables */
-
-/* Primary color #757575 */
-/* Secondary color #212121 */
-/* Active color #2196f3 */
-/* Primary background color #E5E5E5 */
-/* Secondary background color #F5F4FA */
-
 :root {
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
