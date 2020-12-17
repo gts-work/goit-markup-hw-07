@@ -23,3 +23,7 @@
   width: 100%;
   height: $height;
 }
+
+@mixin image($display) {
+  display: $display;
+}
