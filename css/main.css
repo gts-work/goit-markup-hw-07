@@ -17,7 +17,7 @@
   padding-right: 0;
 }
 
-.btn__submit, .modal__submit {
+.btn__submit, .modal__submit, .hero__button {
   display: inline-block;
   min-width: 200px;
   height: 50px;
@@ -629,5 +629,33 @@ h6 {
 .btn-title {
   margin: 0;
   margin-right: 10px;
+}
+
+.hero {
+  min-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero.jpg"), -webkit-gradient(linear, left top, right top, from(#c4c4c4), to(#c4c4c4));
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg"), linear-gradient(to right, #c4c4c4, #c4c4c4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #212121;
+  /* outline: 1px solid tomato; */
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
