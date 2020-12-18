@@ -14,7 +14,6 @@
 
 .command__image {
   @include image(inline-block);
-  //   display: inline-block;
 
   margin-bottom: 30px;
   padding-left: 0px;
@@ -102,56 +101,3 @@
     cursor: pointer;
   }
 }
-
-// .command-icon {
-//   display: flex;
-// }
-
-// .command-icon > .icon {
-//   display: block;
-//   width: 44px;
-//   height: 44px;
-
-//   border-radius: 50%;
-//   background-color: var(--color-white);
-//   fill: var(--color-icon-gray);
-
-//   padding: 12px;
-//   margin-right: auto;
-//   margin-left: auto;
-// }
-
-// .command-icon:not(:last-child) {
-//   margin-right: 10px;
-// }
-
-// .command-icon:first-child {
-//   margin-left: 32px;
-// }
-
-// .command-icon:last-child {
-//   margin-right: 32px;
-// }
-
-// .command-icon > .icon {
-//   display: block;
-
-//   background-color: var(--color-white);
-//   fill: var(--color-icon-gray);
-
-//   transform: scale(1);
-
-//   transition: background-color var(--time-var) var(--transform-function),
-//     fill var(--time-var) var(--transform-function),
-//     transform var(--time-var) var(--transform-function);
-// }
-
-// .command-icon > .icon:hover,
-// .command-icon > .icon:focus {
-//   background-color: var(--active-color);
-//   fill: var(--color-white);
-
-//   transform: scale(1.2);
-
-//   cursor: pointer;
-// }
