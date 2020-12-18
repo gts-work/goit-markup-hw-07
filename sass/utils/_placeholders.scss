@@ -88,3 +88,18 @@
   transition: color $time-var $transform-function,
     fill $time-var $transform-function;
 }
+
+%section-primary-text {
+  color: $secondary-text-color;
+
+  font-weight: 700;
+}
+
+%section-secondary-text {
+  color: $primary-text-color;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
